@@ -1,4 +1,9 @@
 Com831oiojinZurb::Application.routes.draw do
+  root 'pages#me'
+  match '/me', to:'pages#me', via: 'get'
+  match '/portfolio', to:'pages#portfolio', via: 'get'
+  match '/thought', to:'pages#thought', via: 'get'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
