@@ -27,7 +27,7 @@ gem 'foundation-rails', '5.0.0.1'
 gem 'unicorn'
 
 # Deploy with Capistrano
-gem 'capistrano'
+gem 'capistrano', '2.9.0'
 
 
 group :doc do
