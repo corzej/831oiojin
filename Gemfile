@@ -22,6 +22,14 @@ gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 gem 'foundation-rails', '5.0.0.1'
 
+
+# Use unicorn as the app server
+gem 'unicorn'
+
+# Deploy with Capistrano
+gem 'capistrano'
+
+
 group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
